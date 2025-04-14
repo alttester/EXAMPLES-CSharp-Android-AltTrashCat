@@ -6,7 +6,7 @@ bin/
 .vs/
 
 #ignore obj
-obj/
+**/obj/
 
 #ignore Test Results 
 TestResults/
