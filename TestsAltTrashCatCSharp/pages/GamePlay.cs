@@ -1,6 +1,3 @@
-using System;
-using AltTester.AltTesterSDK.Driver;
-
 namespace alttrashcat_tests_csharp.pages
 {
     public class GamePlay : BasePage

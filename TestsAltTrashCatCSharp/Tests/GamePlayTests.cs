@@ -1,9 +1,3 @@
-using System;
-using System.Threading;
-using AltTester.AltTesterSDK.Driver;
-using alttrashcat_tests_csharp.pages;
-using NUnit.Framework;
-
 namespace alttrashcat_tests_csharp.tests
 {
     public class GamePlayTests
