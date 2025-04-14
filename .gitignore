@@ -1,0 +1,15 @@
+# ignore bin directory 
+bin/
+
+#ignore vs and vscode 
+.vscode/
+.vs/
+
+#ignore obj
+obj/
+
+#ignore Test Results 
+TestResults/
+
+#ignore screenshots
+test-screenshot.png
