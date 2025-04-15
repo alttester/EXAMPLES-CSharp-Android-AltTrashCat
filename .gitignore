@@ -17,3 +17,6 @@ TestResults/
 
 #ignore screenshots
 test-screenshot.png
+
+#ignore github workflows?
+.github/
