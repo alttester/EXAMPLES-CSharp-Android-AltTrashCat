@@ -1,11 +1,15 @@
-# ignore bin directory 
+# ignore bin and obj directories 
 bin/
+obj/
+
+#ignore app folder
+app/
 
 #ignore vs and vscode 
 .vscode/
 .vs/
 
-#ignore obj and any new stuff inside obj
+#ignore obj
 obj/
 
 #ignore Test Results 
