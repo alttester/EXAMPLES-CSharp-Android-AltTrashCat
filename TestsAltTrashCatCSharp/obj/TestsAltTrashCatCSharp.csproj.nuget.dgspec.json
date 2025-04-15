@@ -1,29 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andra.cardas\\Desktop\\android-c#-example\\android-build-with-csharp-tests\\TestsAltTrashCatCSharp\\TestsAltTrashCatCSharp.csproj": {}
+    "D:\\git\\EXAMPLES-CSharp-Android-AltTrahCat\\TestsAltTrashCatCSharp\\TestsAltTrashCatCSharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andra.cardas\\Desktop\\android-c#-example\\android-build-with-csharp-tests\\TestsAltTrashCatCSharp\\TestsAltTrashCatCSharp.csproj": {
+    "D:\\git\\EXAMPLES-CSharp-Android-AltTrahCat\\TestsAltTrashCatCSharp\\TestsAltTrashCatCSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andra.cardas\\Desktop\\android-c#-example\\android-build-with-csharp-tests\\TestsAltTrashCatCSharp\\TestsAltTrashCatCSharp.csproj",
+        "projectUniqueName": "D:\\git\\EXAMPLES-CSharp-Android-AltTrahCat\\TestsAltTrashCatCSharp\\TestsAltTrashCatCSharp.csproj",
         "projectName": "TestsAltTrashCatCSharp",
-        "projectPath": "C:\\Users\\andra.cardas\\Desktop\\android-c#-example\\android-build-with-csharp-tests\\TestsAltTrashCatCSharp\\TestsAltTrashCatCSharp.csproj",
-        "packagesPath": "C:\\Users\\andra.cardas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andra.cardas\\Desktop\\android-c#-example\\android-build-with-csharp-tests\\TestsAltTrashCatCSharp\\obj\\",
+        "projectPath": "D:\\git\\EXAMPLES-CSharp-Android-AltTrahCat\\TestsAltTrashCatCSharp\\TestsAltTrashCatCSharp.csproj",
+        "packagesPath": "C:\\Users\\levi.balint\\.nuget\\packages\\",
+        "outputPath": "D:\\git\\EXAMPLES-CSharp-Android-AltTrahCat\\TestsAltTrashCatCSharp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\andra.cardas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\levi.balint\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netcoreapp7"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net7.0": {
+            "targetAlias": "netcoreapp7",
             "projectReferences": {}
           }
         },
@@ -31,14 +41,21 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net7.0": {
+          "targetAlias": "netcoreapp7",
           "dependencies": {
-            "AltUnityDriver": {
+            "AltTester-Driver": {
               "target": "Package",
-              "version": "[1.7.0, )"
+              "version": "[2.2.5, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -59,16 +76,31 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

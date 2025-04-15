@@ -5,8 +5,8 @@ bin/
 .vscode/
 .vs/
 
-#ignore obj
-**/obj/
+#ignore obj and any new stuff inside obj
+obj/
 
 #ignore Test Results 
 TestResults/
