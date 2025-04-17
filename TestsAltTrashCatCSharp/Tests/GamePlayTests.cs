@@ -14,6 +14,7 @@ namespace alttrashcat_tests_csharp.tests
             altDriver = new AltDriver();
             mainMenuPage = new MainMenuPage(altDriver);
             mainMenuPage.LoadScene();
+            Thread.Sleep(3000);
             mainMenuPage.PressRun();
             gamePlayPage = new GamePlay(altDriver);
             pauseOverlayPage = new PauseOverlayPage(altDriver);
