@@ -1,5 +1,3 @@
-using AltTester.AltTesterSDK.Driver;
-
 namespace alttrashcat_tests_csharp.pages
 {
     public class PauseOverlayPage : BasePage

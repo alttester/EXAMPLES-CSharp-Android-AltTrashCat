@@ -1,5 +1,5 @@
 echo "==> Uninstalling the app from the device..."
-adb uninstall com.Altom.TrashCat
+adb uninstall com.altom.TrashCat
 
 echo "==> Installing the app on the device..."
 adb install app/TrashCat.apk
@@ -10,7 +10,7 @@ adb reverse tcp:13000 tcp:13000
 
 echo " Start the app "
 
-adb shell am start -n com.Altom.TrashCat/com.unity3d.player.UnityPlayerActivity
+adb shell am start -n com.altom.TrashCat/com.unity3d.player.UnityPlayerActivity
 
 
 echo "==> Wait for app to start"
@@ -21,7 +21,7 @@ echo "==> Restore test project and run tests"
 dotnet test  -- NUnit.TestOutputXml = "TestAlttrashCSharp"
 
 echo "==> Kill app"
-adb shell am force-stop com.Altom.TrashCat
+adb shell am force-stop com.altom.TrashCat
 
 echo "remove reverse ports"
 adb reverse --remove-all

@@ -1,0 +1,22 @@
+# ignore bin and obj directories 
+bin/
+obj/
+
+#ignore app folder
+app/
+
+#ignore vs and vscode 
+.vscode/
+.vs/
+
+#ignore obj
+obj/
+
+#ignore Test Results 
+TestResults/
+
+#ignore screenshots
+test-screenshot.png
+
+#ignore github workflows?
+.github/
